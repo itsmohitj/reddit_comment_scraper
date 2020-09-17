@@ -12,15 +12,15 @@ print('success')
 words = []
 wordCount = {}
 commonWords = {'that','this','and','of','the','for','I','it','has','in',
-'you','to','was','but','have','they','a','is','','be','on','are','an','or',
-'at','as','do','if','your','not','can','my','their','them','they','with',
-'at','about','would','like','there','You','from','get','just','more','so',
-'me','more','out','up','some','will','how','one','what',"don't",'should',
-'could','did','no','know','were','did',"it's",'This','he','The','we',
-'all','when','had','see','his','him','who','by','her','she','our','thing','-',
-'now','what','going','been','we',"I'm",'than','any','because','We','even',
-'said','only','want','other','into','He','what','i','That','thought',
-'think',"that's",'Is','much'}
+                 'you','to','was','but','have','they','a','is','','be','on','are','an','or',
+                 'at','as','do','if','your','not','can','my','their','them','they','with',
+                 'at','about','would','like','there','You','from','get','just','more','so',
+                 'me','more','out','up','some','will','how','one','what',"don't",'should',
+                 'could','did','no','know','were','did',"it's",'This','he','The','we',
+                 'all','when','had','see','his','him','who','by','her','she','our','thing','-',
+                 'now','what','going','been','we',"I'm",'than','any','because','We','even',
+                 'said','only','want','other','into','He','what','i','That','thought',
+                 'think',"that's",'Is','much'}
 for submission in subreddit.top(limit=50):
     submission.comments.replace_more(limit=0)
     for top_level_comment in submission.comments:
