@@ -1,1 +1,3 @@
-# reddit_comment_scraper
+# Reddit Comment Scraper
+
+This script scrapes over

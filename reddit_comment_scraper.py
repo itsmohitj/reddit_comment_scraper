@@ -5,7 +5,7 @@ import seaborn as sns
 
 reddit = praw.Reddit(client_id='client_id', client_secret='Client_Secret', user_agent='comment_scraper', username='Reddit_Username', password='Reddit_Password')
 
-subreddit_name = input("Enter the name of the subreddit")
+subreddit_name = input("Enter the name of the subreddit: ")
 subreddit = reddit.subreddit(subreddit_name)
 top_subbreddit = subreddit.top()
 count = 0
